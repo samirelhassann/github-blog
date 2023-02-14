@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src --ext .tsx,.ts",
-    "lint-fix": "eslint src --ext .tsx,.ts --fix"
+    "lint-fix": "eslint src --ext .tsx,.ts --fix",
+    "deploy": "yarn install && yarn build && firebase deploy --only hosting"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
