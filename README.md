@@ -33,7 +33,7 @@ This project was built with the help of the [Rocketseat](https://www.rocketseat.
 
 ## Live Preview
 
-Check live preview: https://webapp-github-blog.azurewebsites.net
+Check live preview: https://github-blog-ca4cf.web.app/
 
 
 ## Instalation
