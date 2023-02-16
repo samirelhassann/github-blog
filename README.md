@@ -22,8 +22,7 @@ This project was built with the help of the [Rocketseat](https://www.rocketseat.
 - react-markdown
 - date-fns
 - material-ui
-- @radix-ui/react-dialog
-- @radix-ui/react-select
+- radix-ui
 - fontawesome
 
 
