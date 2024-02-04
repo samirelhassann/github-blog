@@ -9,11 +9,13 @@ import { GithubProvider } from "./contexts/GithubContext";
 import Router from "./pages/Router";
 
 function App() {
+  const base = import.meta.env.VITE_BASE || "/";
+
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
 
-      <BrowserRouter>
+      <BrowserRouter basename={base}>
         <GithubProvider>
           <Router />
         </GithubProvider>
