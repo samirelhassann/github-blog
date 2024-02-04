@@ -5,8 +5,5 @@ const base = process.env.VITE_BASE || "/";
 
 export default defineConfig({
   plugins: [react()],
-  build: {
-    outDir: "build",
-  },
   base: base,
 });
